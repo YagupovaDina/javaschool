@@ -1,0 +1,5 @@
+app:
+  build:
+    image: codeship/app
+    context: app
+    dockerfile: Dockerfile
