@@ -12,7 +12,15 @@ public class Calculator {
      */
     public String evaluate(String statement) {
         // TODO: Implement the logic here
-        return "";
+        String res = null;
+        try {
+            ParseExpression parseExpression = new ParseExpression();
+            String str = parseExpression.parseToPolishNotation(statement);
+            res = EvaluationExpression.calculation(str);
+        } catch (SyntaxException e) {
+            System.err.println(e.toString());
+        }
+        return res;
     }
 
 }
