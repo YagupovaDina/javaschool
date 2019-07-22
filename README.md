@@ -23,7 +23,7 @@ The exam includes 3 tasks to be done: [Calculator](/tasks/Calculator.md), [Pyram
 * You're ready to go!
 
 ### How can I submit the result?  ###
-
+ 
 * Make sure your code can be built and all tests are green (example command: "mvn clean install")
 * Commit and push all changes to your repository
 * Configure the build on CI server like Codeship
