@@ -12,7 +12,7 @@ The exam includes 3 tasks to be done: [Calculator](/tasks/Calculator.md), [Pyram
 ### Result ###
 
 * Author name : Yagupova Dina
-* Codeship : [ ![Codeship Status for tschool/javaschoolexam](https://app.codeship.com/projects/3f423290-8e8f-0137-1b3e-3263939e975e/status?branch=master)
+* Codeship : [ ![Codeship Status for tschool/javaschoolexam]https://app.codeship.com/projects/3f423290-8e8f-0137-1b3e-3263939e975e/status?branch=master
 
 
 
