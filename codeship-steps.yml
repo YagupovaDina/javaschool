@@ -1,3 +1,5 @@
-  - tag: master
-    service: app
-    command: deploy.sh
+- type: serial
+  name: build
+  steps:
+  - service: maven
+    command: mvn -B test

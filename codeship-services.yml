@@ -1,5 +1,7 @@
-app:
+maven:
   build:
-    image: codeship/app
-    context: app
-    dockerfile: Dockerfile
+    image: cloudbees/sample-project
+    dockerfile: Dockerfile.build
+  cached: true
+  volumes:
+  - ./tmp:/target
