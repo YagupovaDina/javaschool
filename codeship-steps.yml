@@ -1,0 +1,3 @@
+tag: master
+service: app
+command: mvn -B test
