@@ -21,10 +21,6 @@ public class EvaluationExpression {
     private static Matcher matcherForExpression;
     private static Matcher matcherForExtractNumber;
 
-    /**
-     * инициализируются строки для регулярных выражений
-     * структура, в которой происхоид  вычисления выражения, представлена в виде stack (Deque представим в виде стека)
-     */
     static {
         otherSymbols.setDecimalSeparator('.');
         df = new DecimalFormat("#.####", otherSymbols);
