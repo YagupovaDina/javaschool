@@ -19,12 +19,8 @@ public class ParseExpression {
      * @return если символ операнд - return true
      */
     private boolean isOperand(String s) {
-        String number = "\\d+";//"[+-]?([0-9]*[.])?[0-9]+";
-        boolean t = (s.matches(number));
-        //if (s.equals("+") || s.equals("-") || s.equals("*") || s.equals("/") || s.equals("(") || s.equals(")") || s.equals(" "))
-        //    return false;
-        return t;//true;
-        //else return true;
+        String number = "\\d+";
+        return (s.matches(number));
     }
 
     /**
@@ -40,8 +36,8 @@ public class ParseExpression {
 
     private boolean isAmnountOfBracketsEqual(String str) {
         int countLeft = str.length() - str.replace("(", "").length();
-        int counRight = str.length() - str.replace(")", "").length();
-        if (counRight == countLeft)
+        int countRight = str.length() - str.replace(")", "").length();
+        if (countRight == countLeft)
             return true;
         return false;
     }
